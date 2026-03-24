@@ -1,0 +1,35 @@
+{
+  "name": "social-media-tracker",
+  "version": "1.0.0",
+  "description": "Track social media follower growth across multiple platforms",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:push": "prisma db push",
+    "db:studio": "prisma studio",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next-auth": "^4.24.0",
+    "@prisma/client": "^5.7.0",
+    "bcryptjs": "^2.4.3",
+    "axios": "^1.6.0",
+    "@heroicons/react": "^2.0.18",
+    "tailwindcss": "^3.3.6",
+    "recharts": "^2.10.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "prisma": "^5.7.0",
+    "@tailwindcss/forms": "^0.5.7"
+  }
+}
